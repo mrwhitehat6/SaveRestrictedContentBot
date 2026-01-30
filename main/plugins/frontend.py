@@ -4,16 +4,11 @@ import time, os
 
 from .. import bot as Drone
 from .. import userbot, Bot
-from .. import FORCESUB as fs
 from main.plugins.pyroplug import get_msg
 from main.plugins.helpers import get_link, join
 
 from telethon import events
 from pyrogram.errors import FloodWait
-
-from ethon.telefunc import force_sub
-
-ft = f"To use this bot you've to join @{fs}."
 
 message = "Send me the message link you want to start saving from, as a reply to this message."
 
