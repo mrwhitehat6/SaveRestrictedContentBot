@@ -9,7 +9,6 @@ import time, os, asyncio
 
 from .. import bot as Drone
 from .. import userbot, Bot, AUTH
-from .. import FORCESUB as fs
 from main.plugins.pyroplug import get_bulk_msg
 from main.plugins.helpers import get_link, screenshot
 
@@ -20,9 +19,6 @@ from pyrogram import Client
 from pyrogram.errors import FloodWait
 
 from ethon.pyfunc import video_metadata
-from ethon.telefunc import force_sub
-
-ft = f"To use this bot you've to join @{fs}."
 
 batch = []
 
